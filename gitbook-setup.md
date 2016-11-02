@@ -48,9 +48,7 @@ Now, every request of your url will be redirect to the local port on your server
 $ npm install -g gitbook-cli
 ```
 
-```
-Here, npm is the Node Package Manager that is required for NodeJs applications. If you don't have one, please go to https://nodejs.org/ and see the instructions to install NodeJs and NPM on your Linux server.
-```
+Here, npm is the Node Package Manager that is required for NodeJs applications. If you don't have one, please go to [https:\/\/nodejs.org\/](https://nodejs.org/) and see the instructions to install NodeJs and NPM on your Linux server.
 
 And after you successfully installed globally gitbook client on your server, we need to set up the Gitbook Directory. Go to any directory you want to set the server, and initiate the Gitbook:
 
@@ -83,7 +81,7 @@ But here we don't have `app.js` . What we have is the gitbook commands. But how 
 $ pm2 start gitbook -- -p YOUR_PORT serve
 ```
 
-PM2 will consider all the arguments after `--` as the command line arguments for the program that will be running in PM2. So here we specified the port we mentioned before, and also serve, telling PM2 to serve the Gitbook service. Now you will see a form containing a `gitbook` process. It will also show the status, restart time, memory usage and other information. Normally there will be no restarts if there's no error occurs. If everything goes fine, you can logout from your server now and browse your Gitbook at any time. 
+PM2 will consider all the arguments after `--` as the command line arguments for the program that will be running in PM2. So here we specified the port we mentioned before, and also serve, telling PM2 to serve the Gitbook service. Now you will see a form containing a `gitbook` process. It will also show the status, restart time, memory usage and other information. Normally there will be no restarts if there's no error occurs. If everything goes fine, you can logout from your server now and browse your Gitbook at any time.
 
 There are many editors that can be used for editing Gitbook articles. I'm now using the Gitbook desktop editor for MacOSX in my personal computer. And I also set up a github repository, connecting both my local Gitbook Editor and my server Gitbook directory with it. So everytime I edit the articles, I push the local file to github, ssh to my server, cd to that directory and `git pull origin master` to sync the changes. Make sure to run
 
