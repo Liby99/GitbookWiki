@@ -4,6 +4,7 @@
     * [Gitbook Setup](gitbook-setup.md)
 * [Development](chapter1.md)
     * [NodeJs](nodejs.md)
+    * [C++](c.md)
 * [Mathematics](mathematics.md)
     * [Group Theory](group-theory.md)
 * [Computer Grphics](cinema-4d.md)
