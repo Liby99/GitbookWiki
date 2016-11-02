@@ -1,3 +1,6 @@
-# My Awesome Book
+# Liby's Gitbook
 
-This file file serves as your book's preface, a great place to describe your book's content and ideas.
+Liby is trying to record his daily learnings through Gitbook. This is only for knowledge keeping and sharing. To see his personal website and blog, please visit his website [http:\/\/liby.cubes.studio\/](http://liby.cubes.studio/)
+
+In this Introduction Chapter, I'm going to basically describe what I did to setup this Gitbook Environment.
+
