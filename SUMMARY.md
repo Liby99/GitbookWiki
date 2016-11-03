@@ -2,6 +2,7 @@
 
 * [Liby's Gitbook](README.md)
     * [Gitbook Setup](gitbook-setup.md)
+    * [Gitbook Math](gitbook-math.md)
 * [Development](chapter1.md)
     * [NodeJs](nodejs.md)
     * [C++](c.md)
